@@ -1,4 +1,7 @@
 import { ErrorBoundary, ErrorComponent, useQueryErrorResetBoundary } from "blitz"
+
+import "../styles.css"
+
 export default function App({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page)
 
