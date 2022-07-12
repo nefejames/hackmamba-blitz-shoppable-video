@@ -9,7 +9,7 @@ const shoppable = {
         action: "goto",
         pause: true,
         args: {
-          url: "/product/dog-one",
+          url: "#",
         },
       },
     },
@@ -23,7 +23,7 @@ const shoppable = {
         action: "goto",
         pause: true,
         args: {
-          url: "/product/dog-two",
+          url: "#",
         },
       },
     },
