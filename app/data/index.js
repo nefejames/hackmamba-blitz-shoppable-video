@@ -2,28 +2,14 @@ const shoppable = {
   products: [
     {
       productId: 1,
-      productName: "Dog One",
+      productName: "A Dog",
       publicId:
         "https://res.cloudinary.com/nefejames/image/upload/v1632500955/Hackmamba/Images/pet9.jpg",
       onClick: {
         action: "goto",
         pause: true,
         args: {
-          url: "#",
-        },
-      },
-    },
-    {
-      productId: 2,
-      productName: "Dog Two",
-
-      publicId:
-        "https://res.cloudinary.com/nefejames/image/upload/v1632500949/Hackmamba/Images/pet4.jpg",
-      onClick: {
-        action: "goto",
-        pause: true,
-        args: {
-          url: "#",
+          url: "/product/1",
         },
       },
     },
